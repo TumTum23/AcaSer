@@ -1,0 +1,53 @@
+// Place all the styles related to the acserch controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.banner {
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+   font-size: 120px;
+
+   color: whitesmoke;
+  }
+
+
+}
+
+.search_box {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.URL_search {
+  padding: 20px;
+}
+
+.word_search_box {
+}
+
+.word-search-bar {
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+
+
+<div class="container">
+  <div class="search_main">
+
+
+
+    <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.3) 0%, rgba(0,36,61,0.4) 50%), url(<%= image_path "Overflowing-Bookcases.jpg" %>);">
+      <h1 class="csta">AcaSearch.</h1>
+      <div class="search_box">
+      <div class="URL_search">
+          <div class="search_bar">
+            <form action="/spots" method="GET" class="form-inline padded">
+              <input type="text" class="form-control border-radius input-lg" placeholder="Enter Url">
+              <input type="submit" class="btn btn-danger btn-lg" value="Search!">
+            </form>
+          </div>
+        </div>
+        <div class="word_search_box">
+          <div class="word_search_bar">
+            <form action="/spots" method="GET" class="form-inline padded">
+              <input type="text" class="form-control border-radius input-lg" placeholder="Search word">
+              <input type="submit" class="btn btn-danger btn-lg" value="Find">
+            </form>
+          </div>
+          <div class="word_search_bar">
+            <form action="/spots" method="GET" class="form-inline padded">
+              <input type="text" class="form-control border-radius input-lg" placeholder="Search word">
+              <input type="submit" class="btn btn-danger btn-lg" value="Find">
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+      </div>
+    </div>
+
+
+
+  </div>
+</div>
